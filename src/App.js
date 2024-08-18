@@ -1,18 +1,13 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Buttons from "./components/Buttons";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <button className="btn">Button</button>
-        <button className="btn btn-neutral">Neutral</button>
-        <button className="btn btn-primary">Primary</button>
-        <button className="btn btn-secondary">Secondary</button>
-        <button className="btn btn-accent">Accent</button>
-        <button className="btn btn-ghost">Ghost</button>
-        <button className="btn btn-link">Link</button>
-      </header>
+<Header/>
+<Buttons/>
     </div>
   );
 }
