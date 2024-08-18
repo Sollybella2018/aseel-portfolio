@@ -3,9 +3,7 @@
 
 module.exports = {
   content: ["./src/**/*.{html,js}"],
-  theme: {daisyui: {
-    themes: [valentine],
-  },
+  theme: {
     extend: {},
   },
   plugins: [require('daisyui'),],
