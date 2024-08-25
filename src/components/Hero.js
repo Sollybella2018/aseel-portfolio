@@ -10,12 +10,12 @@ const Hero = props => {
         src={profile}
         className="w-40 h-50 max-w-sm rounded-lg shadow-2xl" />
       <div>
-        <h1 className="text-5xl font-bold">Box Office News!</h1>
+        <h1 className="text-3xl font-bold">Hello! My name is Aseel Khalid i'am Amman-based freelanced. If i am not freelancing at some of Amman's finest digital agencies. I'm working remotely on projects for clients all over the word
+           </h1>
         <p className="py-6">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-          quasi. In deleniti eaque aut repudiandae et a id nisi.
+          I have a diverse set of skills, ranging from design, to HTML + CSS + javascript + responsive web design + VS code + ReactJs .
         </p>
-        <button className="btn btn-primary">Get Started</button>
+        
       </div>
     </div>
   </div></div>
