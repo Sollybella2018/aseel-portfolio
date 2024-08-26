@@ -1,27 +1,31 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import guess from '../assets/guess.jpg'
+import poltluckguest from '../assets/potluckguest.jpg'
+import epicmix from '../assets/epicmix.jpg'
+import stickynote from '../assets/stickynote.jpg'
 const Projects = props => {
   return (
     <div><div className="carousel w-full">
     <div id="item1" className="carousel-item w-full">
       <img
-        src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+        src={guess}
         className="w-full" />
     </div>
     <div id="item2" className="carousel-item w-full">
       <img
-        src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+        src={poltluckguest}
         className="w-full" />
     </div>
+    
     <div id="item3" className="carousel-item w-full">
       <img
-        src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+        src={epicmix}
         className="w-full" />
     </div>
     <div id="item4" className="carousel-item w-full">
       <img
-        src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+        src={stickynote}
         className="w-full" />
     </div>
   </div>
@@ -31,7 +35,10 @@ const Projects = props => {
     <a href="#item3" className="btn btn-xs">3</a>
     <a href="#item4" className="btn btn-xs">4</a>
   </div></div>
+
+  
   )
+ 
 }
 
 Projects.propTypes = {}

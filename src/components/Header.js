@@ -34,7 +34,7 @@ function Header() {
           <li><a>Skills</a></li>
         </ul>
       </div>
-      <a className="btn btn-ghost text-xl">Aseel Khalid</a>
+      <a className="btn btn-ghost text-xl bg-gray-300">Aseel Khalid</a>
     </div>
     <div className="navbar-center hidden lg:flex">
       <ul className="menu menu-horizontal px-1">
