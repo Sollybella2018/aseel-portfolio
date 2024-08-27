@@ -10,23 +10,23 @@ const Projects = props => {
     <div id="item1" className="carousel-item w-full">
       <img
         src={guess}
-        className="w-full" />
+        className="w-full outer" />
     </div>
     <div id="item2" className="carousel-item w-full">
       <img
         src={poltluckguest}
-        className="w-full" />
+        className="w-full outer" />
     </div>
     
     <div id="item3" className="carousel-item w-full">
       <img
         src={epicmix}
-        className="w-full" />
+        className="w-full outer" />
     </div>
     <div id="item4" className="carousel-item w-full">
       <img
         src={stickynote}
-        className="w-full" />
+        className="w-full outer" />
     </div>
   </div>
   <div className="flex w-full justify-center gap-2 py-2">
@@ -35,6 +35,7 @@ const Projects = props => {
     <a href="#item3" className="btn btn-xs">3</a>
     <a href="#item4" className="btn btn-xs">4</a>
   </div></div>
+  
 
   
   )

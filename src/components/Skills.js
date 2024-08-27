@@ -20,15 +20,46 @@ const Skills = (props) => {
         >
           <div className="text-center p-6">
             <h2 className="text-2xl font-bold">My multiple skills are:</h2>
-            <p className="mt-4 text-lg">ReactJS</p>
+            
 
-            <div className="flex justify-center">
+            <div className="text-center grid grid-cols-4 grid-rows-2 gap-2">
               <img
                 src={logo}
                 className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
-              />
-            </div>
-          </div>
+                 />
+                 </div>
+                  <div>
+                    <img
+                      src={logoj}
+                      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={dev}
+                      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src={adobelogo}
+                      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
+                    />
+                  </div>
+                  <div>
+                  <h1 className ="animate-bounce flex align-center">React JS </h1>
+                  </div>
+                  <div>
+                  <h1 className ="animate-bounce">Javascript</h1>
+                  </div>
+                  <div>
+                  <h1 className ="animate-bounce">Dev </h1>
+                  </div>
+                  <div>
+                  <h1 className ="animate-bounce">Adobe</h1>
+                  </div>
+                  </div>
+          
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a href="#slide4" className="btn btn-circle">
               ❮
@@ -66,7 +97,7 @@ const Skills = (props) => {
           className="carousel-item relative w-full flex items-center justify-center bg-gray-100"
         >
           <>
-            <h2 className="text-2xl font-bold">My multiple skills are:</h2>
+            
             <div
               id="slide3"
               className="carousel-item relative w-full flex items-center justify-center bg-gray-100"
@@ -79,41 +110,40 @@ const Skills = (props) => {
                   <div>
                     <img
                       src={logor}
+                      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+                    />
+                  </div>
+                  
+                  
+                  <div>
+                    <img
+                      src={logov}
                       className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
                     />
                   </div>
                   <div>
                     <img
-                      src={logor}
+                      src={htmlogo}
                       className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
                     />
                   </div>
                   <div>
                     <img
-                      src={logor}
+                      src={csslogo}
                       className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
                     />
                   </div>
                   <div>
-                    <img
-                      src={logor}
-                      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
-                    />
+                  <h1 className ="animate-bounce flex align-center">Responsive Web Design </h1>
                   </div>
                   <div>
-                    <img
-                      src={logor}
-                      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl"
-                    />
+                  <h1 className ="animate-bounce">VS Code </h1>
                   </div>
                   <div>
-                  <h1 className ="animate-bounce">test</h1>
+                  <h1 className ="animate-bounce">HTML</h1>
                   </div>
                   <div>
-                  <h1>test</h1>
-                  </div>
-                  <div>
-                 <h1>test</h1>
+                  <h1 className ="animate-bounce">CSS</h1>
                   </div>
                 </div>
               </>
@@ -145,7 +175,7 @@ const Skills = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
