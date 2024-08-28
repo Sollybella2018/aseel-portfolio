@@ -4,13 +4,18 @@ import guess from '../assets/guess.jpg'
 import poltluckguest from '../assets/potluckguest.jpg'
 import epicmix from '../assets/epicmix.jpg'
 import stickynote from '../assets/stickynote.jpg'
+import project from '../assets/project.png'
 const Projects = props => {
   return (
     <div><div className="carousel w-full">
     <div id="item1" className="carousel-item w-full">
-      <img
-        src={guess}
-        className="w-full outer" />
+    
+    <a href="https://vm5vn6.csb.app/" class="image-button">
+    <img src={project} alt="Description" class="button-image" />
+</a>
+
+
+
     </div>
     <div id="item2" className="carousel-item w-full">
       <img

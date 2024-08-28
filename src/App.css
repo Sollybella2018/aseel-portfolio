@@ -1,3 +1,25 @@
+.image-button {
+  display: inline-block; /* Makes the link fit the image size */
+  position: relative; /* Allows positioning adjustments if needed */
+  overflow: hidden; /* Ensures no content spills outside the image */
+}
+
+.button-image {
+  display: block; /* Removes space below the image */
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  transition: opacity 0.3s ease; /* Smooth transition effect */
+}
+
+.image-button:hover .button-image {
+  opacity: 0.8; /* Slightly fade the image on hover for effect */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+}
+
+
+
+
+
 .outer {
   width: 50%;
   height: 350px;
