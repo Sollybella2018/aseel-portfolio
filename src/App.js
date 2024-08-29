@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 <Header/>
 <Hero/>
-<h1 className="text-teal-600 font-medium text-2xl">My skills</h1>
+<h1 className="text-teal-600 font-medium text-2xl">Skills</h1>
 <Skills/>
 <h1 className="text-teal-800 font-medium text-2xl">My Projects</h1>
 <Projects/>

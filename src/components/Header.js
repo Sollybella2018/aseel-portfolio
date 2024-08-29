@@ -1,4 +1,5 @@
 import React from 'react'
+import skills from './components/Skills.js'
 
 function Header() {
   return (
@@ -32,6 +33,7 @@ function Header() {
             </ul>
           </li>
           <li><a>Skills</a></li>
+          <li><a href="#Skills">Skills</a></li>
         </ul>
       </div>
       <a className="btn btn-ghost text-xl bg-gray-300">Aseel Khalid</a>

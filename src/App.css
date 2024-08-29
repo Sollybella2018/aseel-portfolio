@@ -1,3 +1,20 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .image-button {
   display: inline-block; /* Makes the link fit the image size */
   position: relative; /* Allows positioning adjustments if needed */

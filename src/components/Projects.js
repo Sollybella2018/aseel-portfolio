@@ -9,18 +9,19 @@ import login from '../assets/login.png'
 const Projects = props => {
   return (
     <div><div className="carousel w-full">
-    <div id="item1" className="carousel-item w-full">
+    <div id="item1" className="carousel-item w-full btn">
     
-    <a href="https://p8ttf9.csb.app/" class="image-button">
-    <img src={login} alt="Description" class="button-image" />
+    <a href="https://p8ttf9.csb.app/" class="image-button ">
+    <img src={login} alt="Description" class="button-image btn-img" />
 </a>
 
 
 
     </div>
-    <div id="item2" className="carousel-item w-full">
+    <div id="item2" className="carousel-item w-full btn">
     <a href="https://vm5vn6.csb.app/" class="image-button">
-    <img src={project} alt="Description" class="button-image" />
+    <img src={project} alt="Description" class="button-image 
+    " />
 </a>
     </div>
     
