@@ -1,5 +1,5 @@
 import React from 'react'
-import skills from './components/Skills.js'
+import skills from '../components/Skills.js'
 
 function Header() {
   return (
