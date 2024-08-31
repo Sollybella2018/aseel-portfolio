@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function Buttons() {
+  const email = "assilomar@hotmail.com"; // Your email address
+
   return (
-<button className="btn btn-outline btn-primary flex align-middle">Contact Me</button>
-  )
+    <a href={`mailto:${email}`} className="btn btn-outline btn-primary flex align-middle">
+      Contact Me
+    </a>
+  );
 }
 
-export default Buttons
-       
+export default Buttons;
