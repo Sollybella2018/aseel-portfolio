@@ -12,64 +12,71 @@ import dev from "../assets/dev.jpg";
 
 const Skills = (props) => {
   return (
-    <div>
-<div className="carousel rounded-box">
-  <div className="carousel-item">
-    <img
-      src={logo}
-      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src={logoj}
-      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-     src={dev}
-     className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-     src={adobelogo}
-     className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src={logor}
-      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src={logov}
-      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src={htmlogo}
-      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-  <div className="carousel-item">
-    <img
-      src={csslogo}
-      className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
-      alt="Burger" />
-  </div>
-</div>
+    <div id="skills">
+      {" "}
+      {/* Add this ID */}
+      <div className="carousel rounded-box">
+        <div className="carousel-item pr-5">
+          <img
+            src={logo}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item"></div>
 
-      
+        <div className="carousel-item pr-5">
+          <img
+            src={logoj}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item pr-5">
+          <img
+            src={dev}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item pr-5">
+          <img
+            src={adobelogo}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item pr-5">
+          <img
+            src={logor}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item pr-5">
+          <img
+            src={logov}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item pr-5">
+          <img
+            src={htmlogo}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
+        <div className="carousel-item pr-5">
+          <img
+            src={csslogo}
+            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            alt="Logo"
+          />
+        </div>
       </div>
-    
+    </div>
   );
 };
-
-Skills.propTypes = {};
-
 export default Skills;
+Skills.propTypes = {};

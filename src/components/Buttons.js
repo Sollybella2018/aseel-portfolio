@@ -2,7 +2,7 @@ import React from 'react'
 
 function Buttons() {
   return (
-<button className="btn btn-outline btn-primary">Primary</button>
+<button className="btn btn-outline btn-primary flex align-middle">Contact Me</button>
   )
 }
 
