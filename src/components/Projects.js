@@ -6,6 +6,8 @@ import epicmix from "../assets/epicmix.jpg";
 import stickynote from "../assets/stickynote.jpg";
 import project from "../assets/project.png";
 import login from "../assets/login.png";
+import Project2 from '../assets/project2.png'
+
 const Projects = (props) => {
   return (
     <div id="projects">
@@ -26,8 +28,10 @@ const Projects = (props) => {
           </a>
         </div>
 
-        <div id="item3" className="carousel-item w-full">
-          <img src={epicmix} className="w-full outer" />
+        <div id="item3" className="carousel-item w-full btn">
+          <a href="https://xmykt9.csb.app/" class="image-button ">
+            <img src={Project2} alt="Description" class="button-image btn-img" />
+          </a>
         </div>
         <div id="item4" className="carousel-item w-full">
           <img src={stickynote} className="w-full outer" />
