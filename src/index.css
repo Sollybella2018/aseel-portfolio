@@ -15,3 +15,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#skills .carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem; /* Adjust gap as needed */
+}
+
+#skills .carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) { /* Adjust this value as needed for iPhone screens */
+  #skills .carousel {
+    grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+  }
+
+  #skills .carousel-item img {
+    width: 100%; /* Adjust image size if necessary */
+    height: auto;
+  }
+}
