@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-teal-900">
       <div className="navbar-start">
       
        
