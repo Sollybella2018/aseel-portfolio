@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/aseel-portfolio/static/css/main.c9ba4639.css",
+    "main.js": "/aseel-portfolio/static/js/main.7e8c39fd.js",
+    "static/js/453.febef3df.chunk.js": "/aseel-portfolio/static/js/453.febef3df.chunk.js",
+    "static/media/stickynote.jpg": "/aseel-portfolio/static/media/stickynote.51dc272ab043d9fac481.jpg",
+    "static/media/potluckguest.jpg": "/aseel-portfolio/static/media/potluckguest.8dfcf424ec5225772372.jpg",
+    "static/media/guess.jpg": "/aseel-portfolio/static/media/guess.1133b66c5b9763c2e9cc.jpg",
+    "static/media/project.png": "/aseel-portfolio/static/media/project.f4fce57558d4525d48be.png",
+    "static/media/profile.jpeg": "/aseel-portfolio/static/media/profile.7a95eda19b534fca3f75.jpeg",
+    "static/media/epicmix.jpg": "/aseel-portfolio/static/media/epicmix.63a4ce8107b282e67f3d.jpg",
+    "static/media/logo.jpg": "/aseel-portfolio/static/media/logo.d6bfcc3151094951d97f.jpg",
+    "static/media/logor.jpg": "/aseel-portfolio/static/media/logor.9c64aa6534234dc4a746.jpg",
+    "static/media/adobelogo.png": "/aseel-portfolio/static/media/adobelogo.c30567b2088e8ddbc68c.png",
+    "static/media/login.png": "/aseel-portfolio/static/media/login.a88a3425f841245ec2ea.png",
+    "static/media/logoj.webp": "/aseel-portfolio/static/media/logoj.09be1835a8af43e718c8.webp",
+    "static/media/csslogo.png": "/aseel-portfolio/static/media/csslogo.0ca65abfc0c427bc3506.png",
+    "static/media/htmlogo.jpg": "/aseel-portfolio/static/media/htmlogo.e27d0a06c9a6c9f32bdf.jpg",
+    "static/media/logov.png": "/aseel-portfolio/static/media/logov.547882098e0bc59cc2fa.png",
+    "static/media/figma.png": "/aseel-portfolio/static/media/figma.73327404faca6756af67.png",
+    "index.html": "/aseel-portfolio/index.html",
+    "main.c9ba4639.css.map": "/aseel-portfolio/static/css/main.c9ba4639.css.map",
+    "main.7e8c39fd.js.map": "/aseel-portfolio/static/js/main.7e8c39fd.js.map",
+    "453.febef3df.chunk.js.map": "/aseel-portfolio/static/js/453.febef3df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9ba4639.css",
+    "static/js/main.7e8c39fd.js"
+  ]
+}
