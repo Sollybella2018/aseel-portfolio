@@ -23,8 +23,9 @@ code {
 
 #skills .carousel-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 @media (max-width: 600px) { /* Adjust this value as needed for iPhone screens */
