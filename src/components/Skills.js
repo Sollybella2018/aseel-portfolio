@@ -15,15 +15,16 @@ const Skills = (props) => {
     <div id="skills">
       {" "}
       {/* Add this ID */}
-      <div className="carousel rounded-box">
-        <div className="carousel-item pr-5">
+      
+      <div className="carousel flex space-x-5 pl-40">
+        <div className="carousel-item pr-5 ">
           <img
             src={logo}
             className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
             alt="Logo"
           />
         </div>
-        <div className="carousel-item"></div>
+        
 
         <div className="carousel-item pr-5">
           <img
@@ -63,14 +64,14 @@ const Skills = (props) => {
         <div className="carousel-item pr-5">
           <img
             src={htmlogo}
-            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            className="w-20 h-39 max-w-sm rounded-lg shadow-2xl flex align-center"
             alt="Logo"
           />
         </div>
         <div className="carousel-item pr-5">
           <img
             src={csslogo}
-            className="w-20 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
+            className="w-40 h-30 max-w-sm rounded-lg shadow-2xl flex align-center"
             alt="Logo"
           />
         </div>

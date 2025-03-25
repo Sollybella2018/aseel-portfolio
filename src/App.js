@@ -14,8 +14,9 @@ function App() {
       <Hero />
       <h1 className="text-teal-600 font-medium text-2xl" id="skills">Skills</h1>
       <Skills />
-      <h1 className="text-teal-800 font-medium text-2xl">My Projects</h1>
-      <Projects />
+
+      <h1 className="text-teal-800 font-medium text-2xl mt-20">My Projects</h1>
+      <Projects  />
       <Buttons />
     </div>
   );
